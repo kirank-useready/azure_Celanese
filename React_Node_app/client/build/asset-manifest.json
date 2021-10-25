@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c3ba670d.chunk.css",
+    "main.js": "/static/js/main.e9be68b0.chunk.js",
+    "main.js.map": "/static/js/main.e9be68b0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c89b3ba6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c89b3ba6.js.map",
+    "static/js/2.ce6b59be.chunk.js": "/static/js/2.ce6b59be.chunk.js",
+    "static/js/2.ce6b59be.chunk.js.map": "/static/js/2.ce6b59be.chunk.js.map",
+    "static/js/3.0a33cd21.chunk.js": "/static/js/3.0a33cd21.chunk.js",
+    "static/js/3.0a33cd21.chunk.js.map": "/static/js/3.0a33cd21.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.c3ba670d.chunk.css.map": "/static/css/main.c3ba670d.chunk.css.map",
+    "static/js/2.ce6b59be.chunk.js.LICENSE.txt": "/static/js/2.ce6b59be.chunk.js.LICENSE.txt",
+    "static/media/LM_logo_bg.b69eed0b.svg": "/static/media/LM_logo_bg.b69eed0b.svg",
+    "static/media/Project_control_tower.cf31fe07.svg": "/static/media/Project_control_tower.cf31fe07.svg",
+    "static/media/celanese_logo.41db5596.svg": "/static/media/celanese_logo.41db5596.svg",
+    "static/media/App.css": "/static/media/right-side-part.b61e89c1.svg",
+    "static/media/moving-core-bottom.1272c96a.svg": "/static/media/moving-core-bottom.1272c96a.svg",
+    "static/media/square-bg.15e62b75.svg": "/static/media/square-bg.15e62b75.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c89b3ba6.js",
+    "static/js/2.ce6b59be.chunk.js",
+    "static/css/main.c3ba670d.chunk.css",
+    "static/js/main.e9be68b0.chunk.js"
+  ]
+}
