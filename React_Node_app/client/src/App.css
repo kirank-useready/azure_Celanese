@@ -1,0 +1,444 @@
+.App {
+  text-align: center;
+}
+.landing-page{width:100%}
+
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126 License: none (public domain) */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.landingPage .logo_image {
+  position: fixed;
+  left: 2em;
+  top: 2em;
+  max-width: 13em;
+  width: 100%;
+}
+@media only screen and (max-device-width: 576px) {
+  .landingPage .logo_image {
+   /* styles browsers smaller than 576px;
+    */
+    max-width: 9em;
+ }
+}
+.landingPage .bottom_logo_image {
+  position: fixed;
+  right: 1em;
+  bottom: 0;
+  text-align: right;
+  width: 100%;
+  max-width: 9rem;
+}
+.landingPage .copyright-text {
+  display: block;
+  font-size: 14px;
+  color: #7a7a7a;
+  text-align: center;
+  width: 100%;
+}
+.landingPage .copyright-text > span {
+  margin: 42px 0 0 0;
+  display: inline-block;
+}
+.landingPage .main-svg {
+  width: 73%;
+  margin: 1.5rem auto 0 auto;
+  position: relative;
+}
+.landingPage .click-button {
+  z-index: 999999;
+  position: relative;
+  cursor: pointer;
+}
+.white-fill {
+  fill: #c5c5c5;
+  font-weight: 600;
+  font-size: 16px;
+}
+.cls-1 {
+  opacity: 0.1;
+}
+.cls-11, .cls-16, .cls-19, .cls-2, .cls-3, .cls-4, .cls-7 {
+  fill: none;
+}
+.cls-2, .cls-4 {
+  stroke: #e75113;
+}
+.cls-2, .cls-7 {
+  stroke-width: 5px;
+}
+.cls-3 {
+  stroke: #e35013;
+}
+.cls-11, .cls-3, .cls-4 {
+  stroke-width: 4px;
+}
+.cls-5 {
+  opacity: 0.48;
+}
+.cls-6 {
+  fill: url(#radial-gradient);
+}
+.cls-7 {
+  stroke: #0eff45;
+}
+.cls-8 {
+  fill: #168b37;
+  opacity: 0.15;
+}
+.cls-12, .cls-13, .cls-14, .cls-20, .cls-22, .cls-23, .cls-29, .cls-32, .cls-34, .cls-8 {
+  isolation: isolate;
+}
+.cls-13, .cls-9 {
+  opacity: 0.46;
+}
+.cls-10 {
+  fill: url(#radial-gradient-2);
+}
+.cls-11 {
+  stroke: #73f6ff;
+}
+.cls-12 {
+  fill: #54331f;
+  opacity: 0.4;
+}
+.cls-13 {
+  fill: #513627;
+}
+.cls-14 {
+  fill: #343428;
+  opacity: 0.6;
+}
+.cls-15 {
+  opacity: 0.3;
+}
+.cls-17 {
+  fill: #73761a;
+}
+.cls-18 {
+  opacity: 0.47;
+}
+.cls-19 {
+  stroke: #847e7e;
+  stroke-width: 2px;
+}
+.cls-20 {
+  fill: #777070;
+  opacity: 0.16;
+}
+.cls-21 {
+  fill: #73f6ff;
+}
+.cls-23 {
+  font-size: 16px;
+  fill: #11252d;
+}
+.cls-23, .cls-29, .cls-32 {
+  font-weight: 600;
+}
+.cls-24 {
+  letter-spacing: -0.11em;
+}
+.cls-25 {
+  fill: #0eff45;
+}
+.cls-26 {
+  fill: #6e4226;
+}
+.cls-27 {
+  fill: #905530;
+}
+.cls-28 {
+  fill: #e75113;
+}
+.cls-29 {
+  font-size: 26px;
+  fill: #fff;
+}
+.cls-30 {
+  letter-spacing: -0.1em;
+}
+.cls-31 {
+  fill: #a57662;
+}
+.cls-32 {
+  font-size: 12px;
+}
+.cls-33 {
+  fill: #b2b71b;
+}
+.cls-34 {
+  font-size: 11px;
+  font-weight: 700;
+}
+.main-div {
+  width: 100%;
+  height: auto;
+  float: left;
+}
+.middle-circle, .left-side {
+  float: left;
+}
+.right-side {
+  float: right;
+  width: 20%;
+  position: relative;
+  margin-top: 32px;
+}
+.right-side .twentyseven-svg, .right-side .coreteam-svg, .right-side .unitteam-svg {
+  width: 88%;
+  height: 100%;
+}
+.right-side .scrollerdivchart {
+  padding: 0;
+  left: 29px;
+  position: absolute;
+  width: 80%;
+  top: 40px;
+  height: 507px;
+  overflow-y: auto;
+  padding-right: 19px;
+  scrollbar-color: #d4aa70 #e4e4e4;
+  scrollbar-width: thin;
+  padding-left: 5px;
+}
+.right-side .scrollerdivchart .vachart .apexcharts-canvas, .right-side .scrollerdivchart .haciichart .apexcharts-canvas {
+  background-image: url("../src/images/chart_grid.svg");
+  background-repeat: no-repeat;
+  background-position: 0px 11px;
+}
+.right-side .scrollerdivchart .haciichart {
+  padding-bottom: 33px;
+  border-bottom: 1px solid #143947;
+}
+.right-side .scrollerdivchart .haciichart > div {
+  min-height: 1px !important;
+}
+.right-side .scrollerdivchart .left-float {
+  float: left;
+  color: #1d95c5;
+  font-size: 11px;
+}
+.right-side .scrollerdivchart .right-float {
+  float: right;
+  text-align: right;
+  color: #0eff45;
+  font-size: 11px;
+}
+.right-side .scrollerdivchart .right-float > p:first-child {
+  color: #108d38;
+  margin-bottom: 5px;
+}
+.right-side .scrollerdivchart h4 {
+  color: #1d95c5;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  margin: 0px 0 10px 0;
+  border-bottom: 1px solid #15495e;
+  padding-bottom: 5px;
+  text-align: left;
+}
+.right-side .scrollerdiv {
+  padding: 0;
+  left: 50px;
+  position: absolute;
+  width: 66%;
+  top: 40px;
+  height: 507px;
+  overflow-y: auto;
+  padding-right: 19px;
+  scrollbar-color: #d4aa70 #e4e4e4;
+  scrollbar-width: thin;
+  padding-left: 5px;
+}
+.right-side .scrollerdiv h4 {
+  color: #1d95c5;
+  font-size: 18px;
+  font-weight: 600;
+  font-style: italic;
+  margin: 0px;
+  border-bottom: 1px solid #15495e;
+  padding-bottom: 5px;
+  text-align: left;
+}
+.right-side .scrollerdiv ul {
+  margin: 7px 0px 30px 0;
+  padding: 0px;
+}
+.right-side .scrollerdiv ul li {
+  color: #63828f;
+  font-size: 13px;
+  font-style: italic;
+  text-align: left;
+  font-family: "Proxima Nova";
+  padding: 0 0 8px 0;
+  display: flex;
+}
+.right-side .scrollerdiv ul li .circle {
+  width: 8px;
+  height: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  background-color: #142b34;
+  border: 1px solid #1d95c5;
+  margin-right: 5px;
+}
+.right-side .scrollerdiv ul li .span-txt {
+  width: 95%;
+}
+.right-side .scrollerdiv .strips-section {
+  margin: 15px 0 0 0;
+}
+.right-side .scrollerdiv .strips-section-new {
+  background-color: #1b3b48;
+  margin: 0px -3px;
+  padding: 10px 5px;
+}
+.right-side .scrollerdiv .strips-section-new p {
+  color: #fff;
+  font-size: 11px;
+  font-weight: 600;
+  margin: 0 0 10px 0;
+}
+.right-side .scrollerdiv .strip-bar {
+  background-color: #e75113;
+  padding: 7px 5px;
+  text-align: center;
+  border-radius: 5px;
+  color: #ffeaea;
+  font-size: 11px;
+  display: block;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-decoration: none;
+}
+.middle-circle {
+  width: 59%;
+}
+.left-side {
+  width: 20%;
+  min-width: 20%;
+  padding-left: 10px;
+}
+.right-side-bg {
+  background-image: url("../src/images/right-side-part.svg");
+  background-repeat: no-repeat;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.left-side-svg {
+  width: 100%;
+  margin-top: 50%;
+}
+.LM_logo_bg img {
+  width: 20%;
+  position: fixed;
+  bottom: -0.6%;
+  left: -0.5%;
+}
+.moving-core-bottom img {
+  width: 20%;
+  position: fixed;
+  bottom: -0.6%;
+  right: -0.5%;
+}
+.right-side-bg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 15px;
+  text-align: left;
+}
+.right-side-bg h3 {
+  color: #1d95c5;
+  font-size: 24px;
+  font-weight: 600;
+  font-style: italic;
+  border-bottom: 1px solid #15495e;
+  margin-bottom: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.right-side-bg .txt {
+  color: #63828f;
+  font-size: 12px;
+  font-weight: 500;
+  font-style: italic;
+  padding-left: 10px;
+}
+.right-side-bg .orange-strip {
+  background-color: #e75113;
+  color: #fff;
+  border-radius: 4px;
+  width: 80%;
+  font-size: 12px;
+  padding: 4px;
+  margin: 0px auto;
+}
+.right-side-bg .orange-strips-div {
+  text-align: center;
+}
+.disable-svg .cls-25, .disable-svg .cls-21, .disable-svg .cls-31, .disable-svg .cls-33 {
+  fill: #68767c;
+}
+.selected-stroke {
+  stroke: #fff;
+  stroke-width: 3px;
+}
+.cls-25, .cls-21, .cls-31, .cls-33, .cls-28 {
+  cursor: pointer;
+}
+.scrollerdiv::-webkit-scrollbar, .scrollerdivchart::-webkit-scrollbar {
+  width: 6px;
+}
+.scrollerdiv::-webkit-scrollbar-track, .scrollerdivchart::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+.scrollerdiv::-webkit-scrollbar-thumb, .scrollerdivchart::-webkit-scrollbar-thumb {
+  border-radius: 0;
+  background-color: #15495e;
+}
+.show{display: block;}
+.hide{display:none;}
+.middle-circle text{cursor: pointer;}
+.loader-img{background-image: url(../src/images/loader.svg);width: 37px; 
+  height: 37px;
+  position: absolute;
+  top: calc(50% - 18px);
+  left: calc(50% - 18px);}
+.loaderDiv{background-color: rgba(0,0,0,0.1);
+  position: absolute;
+  left: 3px;
+  top: 24px;
+  width: 92%;
+  height: 100%;}
+
+
