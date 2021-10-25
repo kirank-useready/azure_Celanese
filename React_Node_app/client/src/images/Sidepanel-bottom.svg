@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="344.125" height="79.332" viewBox="0 0 344.125 79.332">
+  <g id="Sidepanel-bottom" transform="translate(-1542 -728.354)">
+    <path id="Path_1213" data-name="Path 1213" d="M-10602.84-5820.121l-26.866,21.922h-57.157v-21.687Z" transform="translate(12229.363 6604.738)" fill="#1b3b48" stroke="#15495e" stroke-width="1"/>
+    <g id="Bototm_Left" data-name="Bototm Left">
+      <path id="Path_1214" data-name="Path 1214" d="M7,22.02H0L27,0h7Z" transform="translate(1606.523 785.167)" fill="#1b3b48" stroke="#15495e" stroke-width="1" opacity="0.8"/>
+      <path id="Path_1211" data-name="Path 1211" d="M7,22.02H0L27,0h7Z" transform="translate(1619.523 785.167)" fill="#1b3b48" stroke="#15495e" stroke-width="1" opacity="0.5"/>
+      <path id="Path_1212" data-name="Path 1212" d="M7,22.02H0L27,0h7Z" transform="translate(1632.523 785.167)" fill="#1b3b48" stroke="#15495e" stroke-width="1" opacity="0.3"/>
+    </g>
+    <path id="Path_1200" data-name="Path 1200" d="M-10620.971-5320.614l-343.016-.032v55.264h296.88l46.047-46.047Z" transform="translate(12506.486 6050)" fill="#142b34" stroke="#15495e" stroke-width="1"/>
+    <g id="Bottom_right" data-name="Bottom right">
+      <path id="Path_1201" data-name="Path 1201" d="M8.074-5.806,9,0-24.819,34.864h-7.395Z" transform="translate(1876.592 752)" fill="#1b3b48" stroke="#15495e" stroke-width="1" opacity="0.8"/>
+      <path id="Path_1202" data-name="Path 1202" d="M-3.926,6.194-3,12-24.819,34.864h-7.395Z" transform="translate(1888.592 752)" fill="#1b3b48" stroke="#15495e" stroke-width="1" opacity="0.7"/>
+      <path id="Path_1203" data-name="Path 1203" d="M-16.926,19.194-16,25l-8.819,9.864h-7.395Z" transform="translate(1901.592 752)" fill="#1b3b48" stroke="#15495e" stroke-width="1" opacity="0.5"/>
+    </g>
+    <path id="Path_1244" data-name="Path 1244" d="M-10620.971-5320.613l-343.016-.033v56.26h296.88l46.047-46.877Z" transform="translate(12506.486 6049)" fill="#142b34"/>
+  </g>
+</svg>
